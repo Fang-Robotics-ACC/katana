@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.5)
 project( DisplayImage )
 find_package( OpenCV REQUIRED )
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 include_directories( ${OpenCV_INCLUDE_DIRS} )
 add_executable( DisplayImage main.cpp )
 target_link_libraries( DisplayImage ${OpenCV_LIBS} )
