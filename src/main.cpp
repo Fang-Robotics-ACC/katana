@@ -2,6 +2,6 @@
 
 int main()
 {
-    std::print("Katana!!!");
+    std::println("Katana!!!");
     return 0;
 }
